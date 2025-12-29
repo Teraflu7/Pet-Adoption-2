@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Shelter {
 
-    // aggregation: приют хранит питомцев
     private List<Pet> pets = new ArrayList<>();
 
     public void addPet(Pet pet) {
